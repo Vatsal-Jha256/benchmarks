@@ -31,7 +31,7 @@ function App() {
       <main>
         <section className="section">
           <div className='table-container'>
-            <h2>Reinforcement Learning Benchmarks for Traffic Signal Control</h2>
+            <h2><a href="https://people.engr.tamu.edu/guni/papers/NeurIPS-signals.pdf">Reinforcement Learning Benchmarks for Traffic Signal Control</a></h2>
             <figure className="image-container">
               <a href={rescoImage} target="_blank" rel="noopener noreferrer" onClick={(e) => openPopup(rescoImage, e)}>
                 <img src={rescoImage} alt="Extended State MPLight vs Standard MPLight" />
@@ -44,7 +44,7 @@ function App() {
         </section>
 
         <section className="section">
-          <h2>Traffic Flow Forecasting Benchmark: STD-MAE</h2>
+          <h2><a href="https://arxiv.org/pdf/2312.00516">Traffic Flow Forecasting Benchmark: STD-MAE</a></h2>
           <div className="table-container">
             <div className="image-wrapper">
               <a href={table2Image} target="_blank" rel="noopener noreferrer" onClick={(e) => openPopup(table2Image, e)}>
@@ -69,7 +69,7 @@ function App() {
 
         {/* New YOLOWorld Benchmark Section */}
         <section className="section">
-          <h2>YOLOWorld Benchmarks</h2>
+          <h2><a href="https://arxiv.org/pdf/2401.17270">YOLOWorld Benchmarks</a></h2>
           <div className="table-container">
             <figure className="image-container">
               <div className="image-wrapper">
